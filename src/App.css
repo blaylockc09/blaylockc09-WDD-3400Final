@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  background-color: black;
+  font-family: "Helvetica";
+  display: flex;
+  flex-direction: row;
+}
+
+.us-state-map {
+  z-index: 1;
+  top: 25%;
+  left: 5%;
+  width: 90%;
+  height: 50%;
+  margin: 1rem;
+  position: absolute;
+}
+
+path {
+  z-index: 10;
+  pointer-events: all;
+}
+
+path:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+path .tooltiptext {
+  visibility: visible;
+  width: 120px;
+  background-color:white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+path:hover .tooltiptext {
+  visibility: visible;
+}
