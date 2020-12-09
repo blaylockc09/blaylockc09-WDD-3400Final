@@ -14,7 +14,8 @@ Using the npm start command will start the application on localhost:3000
 ```bash
 npm start
 ```
-
+### Demo
+Or you can click this [link](https://blaylockc09.github.io/blaylockc09-WDD-3400Final/) to view a live demo.
 
 
 
