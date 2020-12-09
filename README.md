@@ -10,7 +10,7 @@ npm install
 ```
 
 ## Running the app
-Using the npm start command will start the application on http://localhost:3000/
+Using the npm start command will start the application on localhost:3000
 ```bash
 npm start
 ```
