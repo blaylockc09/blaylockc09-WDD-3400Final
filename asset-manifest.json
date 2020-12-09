@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blaylockc09-WDD-3400Final/static/css/main.a7726109.chunk.css",
+    "main.js": "/blaylockc09-WDD-3400Final/static/js/main.72da4c96.chunk.js",
+    "main.js.map": "/blaylockc09-WDD-3400Final/static/js/main.72da4c96.chunk.js.map",
+    "runtime-main.js": "/blaylockc09-WDD-3400Final/static/js/runtime-main.662f64c6.js",
+    "runtime-main.js.map": "/blaylockc09-WDD-3400Final/static/js/runtime-main.662f64c6.js.map",
+    "static/js/2.9eb75494.chunk.js": "/blaylockc09-WDD-3400Final/static/js/2.9eb75494.chunk.js",
+    "static/js/2.9eb75494.chunk.js.map": "/blaylockc09-WDD-3400Final/static/js/2.9eb75494.chunk.js.map",
+    "index.html": "/blaylockc09-WDD-3400Final/index.html",
+    "precache-manifest.e742815b3ac214ca332b5b77afa213e2.js": "/blaylockc09-WDD-3400Final/precache-manifest.e742815b3ac214ca332b5b77afa213e2.js",
+    "service-worker.js": "/blaylockc09-WDD-3400Final/service-worker.js",
+    "static/css/main.a7726109.chunk.css.map": "/blaylockc09-WDD-3400Final/static/css/main.a7726109.chunk.css.map",
+    "static/js/2.9eb75494.chunk.js.LICENSE.txt": "/blaylockc09-WDD-3400Final/static/js/2.9eb75494.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.662f64c6.js",
+    "static/js/2.9eb75494.chunk.js",
+    "static/css/main.a7726109.chunk.css",
+    "static/js/main.72da4c96.chunk.js"
+  ]
+}
