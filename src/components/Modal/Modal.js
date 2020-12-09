@@ -2,6 +2,9 @@ import React from "react";
 import StateDisplay from "../StateDisplay/StateDisplay";
 import "./Modal.scss";
 
+
+/* Use modal to display state data */
+
 const Modal = ({ activeState, toggleOpen, modalOpen }) => {
   return (
     

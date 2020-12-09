@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import USAMap from "react-usa-map";
 import Modal from "./components/Modal/Modal";
-
-
 import { getCovidStatesData, getCovidUSData } from "./services/covidApi";
 import AmericaDisplay from "./components/AmericaDisplay/AmericaDisplay.js";
+
 
 function App() {
 
@@ -32,6 +31,8 @@ function App() {
       return `rgb(220, ${hexValue}, ${hexValue}`;
     };
 
+
+    /* generate colors based on amount of infections */
     return covidUSData && covidStatesData
       ? {
           AL: {
@@ -208,9 +209,9 @@ function App() {
   };
 
 
+ 
   const content= (event) => {
     this.setState(this.toggleHoverState);
-    console.log("Test");
   };
 
   const handleMapClick = (event) => {
@@ -223,19 +224,23 @@ function App() {
     }
   };
 
+  
 
-
+ /* Display all information for the app */
   return (
     <div className="App">
-
+      
       <AmericaDisplay data={covidUSData} />
+
       <USAMap
         className="Map"
         customize={statesCustomConfig()}
-        onClick={handleMapClick}
+        onClick={ handleMapClick}
         onMouseEnter={content}
+       
       />
-      
+
+
       <Modal
         activeState={activeState}
         modalOpen={modalOpen}

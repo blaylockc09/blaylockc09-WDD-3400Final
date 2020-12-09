@@ -1,3 +1,5 @@
+/* Get the api data STATE DATA*/
+
 export const getCovidStatesData = () => {
   return fetch("https://api.covidtracking.com/v1/states/current.json")
     .then((res) => res.json())
@@ -6,6 +8,8 @@ export const getCovidStatesData = () => {
     });
 };
 
+
+/* Get the api data  ALL DATA*/
 export const getCovidUSData = () => {
   return fetch("https://api.covidtracking.com/v1/us/current.json")
     .then((res) => res.json())
